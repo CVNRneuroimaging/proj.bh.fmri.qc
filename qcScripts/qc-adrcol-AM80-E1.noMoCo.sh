@@ -71,7 +71,7 @@ dicomParentDir=~/temp-BH-QC/dicoms/AM80_E1_CSI20140113
 # e.g., fmriSeriesList="4 5 6 7 8 9"
 #
 #fmriSeriesList="MoCoSeries_3 MoCoSeries_5 MoCoSeries_7 MoCoSeries_9 MoCoSeries_11"
-fmriSeriesList="Encode#1Run1_2 Encode#1Run2_4 Encode#1Run3_6 Encode#1Run4_8 Encode#1Run5_10"
+fmriSeriesList="Encode_1Run1_2 Encode_1Run2_4 Encode_1Run3_6 Encode_1Run4_8 Encode_1Run5_10"
 
 
 #############################################################################

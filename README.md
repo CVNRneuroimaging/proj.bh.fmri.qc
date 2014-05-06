@@ -11,6 +11,8 @@ SCOPE OF WORK:
 
 RESOURCES & REFERENCE:
 =======================
+- download a zip file containing all qcReports and code: https://github.com/stowler/proj.bh.fmri.qc/archive/master.zip
+  - unzip, and then open the `index.html` file in each session's QC folder to view the QC results as a web page
 - this repo's public URL: https://github.com/stowler/proj.bh.fmri.qc
 - work was performed off-server as stowler-local@pano.birc.emory.edu
 
@@ -25,7 +27,9 @@ T, 20140506
 - created github repo
 - added Friday's QC scripts to repo
 - adapted Friday's QC scripts for dicoms in non-MoCo folders (e.g., "Encode#2Run1_2")
-- executed non-MoCo QC:
+- executed non-MoCo QC
+- found that the hash symbol in input folder names screws up the FBIRN scripts
+- removed the hash symbol from folder names and scripts, executed again
 ```
 stowler-local@pano:~/temp-BH-QC$ du -sh acqfiles/*noMoCo
 353M    acqfiles/AM53-E1-taskfmri.noMoCo
