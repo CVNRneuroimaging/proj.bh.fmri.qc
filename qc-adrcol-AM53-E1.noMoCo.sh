@@ -1,7 +1,7 @@
 #!/bin/bash
 #
 # created: 20130724 by stowler@gmail.com
-# edited:  20140502 by stowler@gmail.com
+# edited:  20140506 by stowler@gmail.com
 #
 # This is a short script to illustrate quality control (qc) and conversion of
 # DICOM data.
@@ -21,9 +21,9 @@ clear
 #   sequences=fmriCategoryMemberGen
 #
 projectName=ADRCOL
-participant=AM80
-session=E2
-sequences=taskfmri
+participant=AM53	
+session=E1
+sequences=taskfmri.noMoCo
 
 
 #############################################################################
@@ -50,7 +50,7 @@ mkdir ${tempDir}
 #
 # e.g., dicomParentDir=/data/birc/Atlanta/DICOMreceivers/DICOMSTORE_viaRamaOnly/CDA100/MR/20130624/084914.000000/1
 #
-dicomParentDir=~/temp-BH-QC/dicoms/AM80_E2_CSI20140123
+dicomParentDir=~/temp-BH-QC/dicoms/AM53_E1_CSI20130110
 
 
 #############################################################################
@@ -70,7 +70,8 @@ dicomParentDir=~/temp-BH-QC/dicoms/AM80_E2_CSI20140123
 #
 # e.g., fmriSeriesList="4 5 6 7 8 9"
 #
-fmriSeriesList="MoCoSeries_3 MoCoSeries_5 MoCoSeries_7 MoCoSeries_9 MoCoSeries_11"
+#fmriSeriesList="MoCoSeries_4 MoCoSeries_6 MoCoSeries_8 MoCoSeries_10 MoCoSeries_12"
+fmriSeriesList="Encode#1Run1_3 Encode#1Run2_5 Encode#1Run3_7 Encode#1Run4_9 Encode#1Run5_11"
 
 
 #############################################################################
@@ -179,3 +180,4 @@ du -sh ${tempDir}
 #tree -L 1 ${tempDir}
 echo ""
 echo ""
+                       
