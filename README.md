@@ -1,25 +1,120 @@
-Below: notes from my work supporting Dr. Hampstead's ad hoc requests for FMRI quality control. The most recent verion of these notes and related source code can be found in public github repository https://github.com/stowler/proj.bh.fmri.qc
+Below: notes from my work supporting Ben Hampstead's ad hoc requests for FMRI quality control.
 
 
-SCOPE OF WORK:
+1. SCOPE OF WORK
 ================
-- Perform FBIRN QC on a few of Ben's task-based FMRI runs.
-- Ben's original request (F, 20140502): Would you mind running some QC on AM80 Encoding 1 & Encoding 2 (CSI server)? I'm getting unusual errors (
+Perform FBIRN QC on a few of Ben's task-based FMRI runs.
+
+
+1.1. original request
+---------------------
+Ben's original request (F, 20140502): Would you mind running some QC on AM80 Encoding 1 & Encoding 2 (CSI server)? I'm getting unusual errors (
 // ERROR: a or b too big, or MAXIT too small in betacf) when I run the single study GLM (for each run). It looks like there's less than 1mm movement in any direction for most of the runs, so I'm worried that something was funky w/ the scanner. A couple other patients have similar issues from that same time period AM82 (again just looking at E1 & E2 right now)...
 
 
+1.2. task list
+---------------
+- DONE: get session identifiers & dicom location
+- DONE: download dicoms
+- DONE: generate FBIRN quality control report for each session
+- DONE: review qcReports
+- DONE: advise Ben
 
-RESOURCES & REFERENCE:
+
+2. PROJECT NOTES
 =======================
-- download a zip file containing all qcReports and code: https://github.com/stowler/proj.bh.fmri.qc/archive/master.zip
+
+2.1. contact info and reference numbers
+----------------------------------------------
+n/a
+
+
+2.2. budgets, invoicing, target dates
+---------------------------------------
+n/a 
+
+
+2.3. file paths and URLs
+------------------------
+- this repository's public browsable URL: https://github.com/stowler/proj.bh.fmri.qc
+- zip file containing all qcReports and code: https://github.com/stowler/proj.bh.fmri.qc/archive/master.zip
   - unzip, and then open the `index.html` file in each session's QC folder to view the QC results as a web page
-- this repo's public URL: https://github.com/stowler/proj.bh.fmri.qc
-- console's motion correction seems to introduce strange smoothness characteristics (screenshot: http://note.io/1iotflT)
-- work was performed off-server as stowler-local@pano.birc.emory.edu
+  - does not include nifti files (too large)
+- work was performed off-server in `stowler-local@pano.birc.emory.edu:~/temp-BH-QC`
+
+
+2.4. software notes
+--------------------------------------------------------------------------
+PLATFORMS AND VERSIONS:
+  - n/a
+
+COMMAND/GUI NOTES AND IDIOSYNCRASIES:
+  - n/a
+
+
+2.5. participant and session IDs (non-sensitive)
+-------------------------------------------------
+Sessions of interest per Ben. Task-based FMRI timeseries with five runs per session:
+
+```
+participantID,sessionID
+AM53,E1
+AM53,E2
+AM80,E1
+AM80,E2
+AM82,E1
+AM82,E2
+AM84,E1
+```
+
+
+2.6. FMRI stimuli and recorded behavior
+---------------------------------------
+n/a - quality control only
+
+
+2.7. a priori regions of interest
+---------------------------------
+n/a - quality control only
+
+
+2.8. hypotheses & contrasts
+---------------------------
+n/a - quality control only
+
+
+2.9. mixed effects structures
+-----------------------------
+n/a - quality control only
+
+
+2.10. power analyses
+--------------------
+n/a - quality control only
+
+
+2.11. relevant literature
+---------------------------
+n/a
+
+
+2.12. notes about deliverables
+-------------------------------
+RAW DATA
+- I'll provide FMRI quality control data and interpretation for Ben.
+
+FIGURES AND TABLES
+- n/a
+
+ABSTRACTS AND POSTERS
+- n/a
+
+MANUSCRIPTS
+- n/a
 
 
 
-DATED PROGRESS NOTES:
+3 DATED PROGRESS NOTES
 =================================================
 (ordered recent to older)
 
