@@ -1,0 +1,126 @@
+<?xml version="1.0"?>
+<!-- This is a BXH (BIAC XML Header) file. -->
+<bxh xmlns:bxh="http://www.biac.duke.edu/bxh" xmlns="http://www.biac.duke.edu/bxh" version="1.0">
+  <datarec type="image">
+    <!--AUTOGEN: Orientation is oblique axial -->
+    <rasorigin>108.041401859904 130.567138799821 -42.2032192279632</rasorigin>
+    <dimension type="x">
+      <units>mm</units>
+      <size>64</size>
+      <origin>108.041401859904</origin>
+      <gap>0</gap>
+      <spacing>3.4375</spacing>
+      <direction>-0.9992685 -0.001473164 0.03821396</direction>
+    </dimension>
+    <dimension type="y">
+      <units>mm</units>
+      <size>64</size>
+      <origin>130.567138799821</origin>
+      <gap>0</gap>
+      <spacing>3.4375</spacing>
+      <direction>-0.008720481 -0.9641532 -0.265203</direction>
+    </dimension>
+    <dimension type="z">
+      <units>mm</units>
+      <size>33</size>
+      <origin>-42.2032192279632</origin>
+      <gap>-1.50244705565683e-10</gap>
+      <spacing>3.49999999984976</spacing>
+      <datapoints label="acquisitiontimeindex">1 18 2 19 3 20 4 21 5 22 6 23 7 24 8 25 9 26 10 27 11 28 12 29 13 30 14 31 15 32 16 33 17</datapoints>
+      <direction>0.03723479 -0.2653423 0.963435</direction>
+    </dimension>
+    <byteorder>lsbfirst</byteorder>
+    <elementtype>uint8</elementtype>
+    <filename>qa_maskdata_fmriSeriesEncode#1Run2_4.bxh.nii</filename>
+    <fileoffset>352</fileoffset>
+    <filerecordsize>135168</filerecordsize>
+  </datarec>
+  <acquisitiondata>
+    <examnumber>1</examnumber>
+    <studyid>AM82-E1</studyid>
+    <seriesnumber>4</seriesnumber>
+    <runnumber>1</runnumber>
+    <institution>Emory University</institution>
+    <institutionaddress>Clifton Rd NE 1481,Atlanta,GA,US,30322</institutionaddress>
+    <institutionaldepartmentname>Department</institutionaldepartmentname>
+    <protocolname>Encode #1 Run 2 (Encode +ACM-1 Run 2) </protocolname>
+    <psdname>%SiemensSeq%\ep2d_bold</psdname>
+    <scandate>2013-12-09</scandate>
+    <scantime>11:19:58</scantime>
+    <scannermanufacturer>SIEMENS</scannermanufacturer>
+    <scanner>MRC35352</scanner>
+    <examdescription>CSI^MRI.3T.FS.2012.002</examdescription>
+    <description>Encode #1 Run 2</description>
+    <scannermodelname>TrioTim</scannermodelname>
+    <scanningsequence>EP</scanningsequence>
+    <sequencevariant>SK</sequencevariant>
+    <scanoptions>FS</scanoptions>
+    <mracquisitiontype>2D</mracquisitiontype>
+    <sequencename>*epfid2d1_64</sequencename>
+    <angioflag>N</angioflag>
+    <numaverages>1</numaverages>
+    <imagingfrequency>123.208368</imagingfrequency>
+    <imagednucleus>1H</imagednucleus>
+    <spacingbetweenslices>3.4999999159977</spacingbetweenslices>
+    <numphaseencodingsteps>63</numphaseencodingsteps>
+    <echotrainlength>1</echotrainlength>
+    <percentsampling>100</percentsampling>
+    <percentphasefieldofview>100</percentphasefieldofview>
+    <scannerserialnumber>35352</scannerserialnumber>
+    <softwareversions>syngo MR B17</softwareversions>
+    <transmitcoilname>Body</transmitcoilname>
+    <inplanephaseencodingdirection>COL</inplanephaseencodingdirection>
+    <flipangle>90</flipangle>
+    <variableflipangleflag>N</variableflipangleflag>
+    <sar>0.17070355376017</sar>
+    <dBdt>0</dBdt>
+    <acquisitionnumber>1</acquisitionnumber>
+    <instancenumber>1</instancenumber>
+    <samplesperpixel>1</samplesperpixel>
+    <photometricinterpretation>MONOCHROME2</photometricinterpretation>
+    <rows>384</rows>
+    <columns>384</columns>
+    <bitsallocated>16</bitsallocated>
+    <bitsstored>12</bitsstored>
+    <highbit>11</highbit>
+    <magneticfield>3</magneticfield>
+    <fieldofview>220 220</fieldofview>
+    <tr>2000</tr>
+    <te>30.000000</te>
+    <prescribedslicespacing>3.5</prescribedslicespacing>
+    <acquisitionmatrix>64 64</acquisitionmatrix>
+    <pixelbandwidth>1776</pixelbandwidth>
+    <bandwidth>113.664</bandwidth>
+    <otherinfo>sRawFilter.lSlope_256 = 25
+sRawFilter.ucOn = 0x1
+sRawFilter.ucMode = 0x1
+</otherinfo>
+    <frequencydirection>1</frequencydirection>
+    <sliceorder>1,3,5,7,9,11,13,15,17,19,21,23,25,27,29,31,33,2,4,6,8,10,12,14,16,18,20,22,24,26,28,30,32</sliceorder>
+  </acquisitiondata>
+  <subject>
+    <name>AM82-E1</name>
+    <age>43</age>
+    <sex>O</sex>
+    <weight>68.038864155</weight>
+  </subject>
+  <history>
+    <entry>
+      <date>2014-05-06 10:43:41</date>
+      <description>
+Generated on pano.birc.emory.edu by 'dicom2bxh' (BXH utilities (1.10.7)) from 167 input args: /home/stowler-local/temp-BH-QC/dicoms/AM82-E1_CSI20131209/Encode#1Run2_4/00001.dcm /home/stowler-local/temp-BH-QC/dicoms/AM82-E1_CSI20131209/Encode#1Run2_4/00001.dcm.nfo /home/stowler-local/temp-BH-QC/dicoms/AM82-E1_CSI20131209/Encode#1Run2_4/00002.dcm /home/stowler-local/temp-BH-QC/dicoms/AM82-E1_CSI20131209/Encode#1Run2_4/00003.dcm /home/stowler-local/temp-BH-QC/dicoms/AM82-E1_CSI20131209/Encode#1Run2_4/00004.dcm /home/stowler-local/temp-BH-QC/dicoms/AM82-E1_CSI20131209/Encode#1Run2_4/00005.dcm /home/stowler-local/temp-BH-QC/dicoms/AM82-E1_CSI20131209/Encode#1Run2_4/00006.dcm /home/stowler-local/temp-BH-QC/dicoms/AM82-E1_CSI20131209/Encode#1Run2_4/00007.dcm /home/stowler-local/temp-BH-QC/dicoms/AM82-E1_CSI20131209/Encode#1Run2_4/00008.dcm /home/stowler-local/temp-BH-QC/dicoms/AM82-E1_CSI20131209/Encode#1Run2_4/00009.dcm /home/stowler-local/temp-BH-QC/dicoms/AM82-E1_CSI20131209/Encode#1Run2_4/00010.dcm /home/stowler-local/temp-BH-QC/dicoms/AM82-E1_CSI20131209/Encode#1Run2_4/00011.dcm /home/stowler-local/temp-BH-QC/dicoms/AM82-E1_CSI20131209/Encode#1Run2_4/00012.dcm /home/stowler-local/temp-BH-QC/dicoms/AM82-E1_CSI20131209/Encode#1Run2_4/00013.dcm /home/stowler-local/temp-BH-QC/dicoms/AM82-E1_CSI20131209/Encode#1Run2_4/00014.dcm /home/stowler-local/temp-BH-QC/dicoms/AM82-E1_CSI20131209/Encode#1Run2_4/00015.dcm /home/stowler-local/temp-BH-QC/dicoms/AM82-E1_CSI20131209/Encode#1Run2_4/00016.dcm /home/stowler-local/temp-BH-QC/dicoms/AM82-E1_CSI20131209/Encode#1Run2_4/00017.dcm /home/stowler-local/temp-BH-QC/dicoms/AM82-E1_CSI20131209/Encode#1Run2_4/00018.dcm /home/stowler-local/temp-BH-QC/dicoms/AM82-E1_CSI20131209/Encode#1Run2_4/00019.dcm /home/stowler-local/temp-BH-QC/dicoms/AM82-E1_CSI20131209/Encode#1Run2_4/00020.dcm /home/stowler-local/temp-BH-QC/dicoms/AM82-E1_CSI20131209/Encode#1Run2_4/00021.dcm /home/stowler-local/temp-BH-QC/dicoms/AM82-E1_CSI20131209/Encode#1Run2_4/00022.dcm /home/stowler-local/temp-BH-QC/dicoms/AM82-E1_CSI20131209/Encode#1Run2_4/00023.dcm /home/stowler-local/temp-BH-QC/dicoms/AM82-E1_CSI20131209/Encode#1Run2_4/00024.dcm /home/stowler-local/temp-BH-QC/dicoms/AM82-E1_CSI20131209/Encode#1Run2_4/00025.dcm /home/stowler-local/temp-BH-QC/dicoms/AM82-E1_CSI20131209/Encode#1Run2_4/00026.dcm /home/stowler-local/temp-BH-QC/dicoms/AM82-E1_CSI20131209/Encode#1Run2_4/00027.dcm /home/stowler-local/temp-BH-QC/dicoms/AM82-E1_CSI20131209/Encode#1Run2_4/00028.dcm /home/stowler-local/temp-BH-QC/dicoms/AM82-E1_CSI20131209/Encode#1Run2_4/00029.dcm /home/stowler-local/temp-BH-QC/dicoms/AM82-E1_CSI20131209/Encode#1Run2_4/00030.dcm /home/stowler-local/temp-BH-QC/dicoms/AM82-E1_CSI20131209/Encode#1Run2_4/00031.dcm /home/stowler-local/temp-BH-QC/dicoms/AM82-E1_CSI20131209/Encode#1Run2_4/00032.dcm /home/stowler-local/temp-BH-QC/dicoms/AM82-E1_CSI20131209/Encode#1Run2_4/00033.dcm /home/stowler-local/temp-BH-QC/dicoms/AM82-E1_CSI20131209/Encode#1Run2_4/00034.dcm /home/stowler-local/temp-BH-QC/dicoms/AM82-E1_CSI20131209/Encode#1Run2_4/00035.dcm /home/stowler-local/temp-BH-QC/dicoms/AM82-E1_CSI20131209/Encode#1Run2_4/00036.dcm /home/stowler-local/temp-BH-QC/dicoms/AM82-E1_CSI20131209/Encode#1Run2_4/00037.dcm /home/stowler-local/temp-BH-QC/dicoms/AM82-E1_CSI20131209/Encode#1Run2_4/00038.dcm /home/stowler-local/temp-BH-QC/dicoms/AM82-E1_CSI20131209/Encode#1Run2_4/00039.dcm /home/stowler-local/temp-BH-QC/dicoms/AM82-E1_CSI20131209/Encode#1Run2_4/00040.dcm /home/stowler-local/temp-BH-QC/dicoms/AM82-E1_CSI20131209/Encode#1Run2_4/00041.dcm /home/stowler-local/temp-BH-QC/dicoms/AM82-E1_CSI20131209/Encode#1Run2_4/00042.dcm /home/stowler-local/temp-BH-QC/dicoms/AM82-E1_CSI20131209/Encode#1Run2_4/00043.dcm /home/stowler-local/temp-BH-QC/dicoms/AM82-E1_CSI20131209/Encode#1Run2_4/00044.dcm /home/stowler-local/temp-BH-QC/dicoms/AM82-E1_CSI20131209/Encode#1Run2_4/00045.dcm /home/stowler-local/temp-BH-QC/dicoms/AM82-E1_CSI20131209/Encode#1Run2_4/00046.dcm /home/stowler-local/temp-BH-QC/dicoms/AM82-E1_CSI20131209/Encode#1Run2_4/00047.dcm /home/stowler-local/temp-BH-QC/dicoms/AM82-E1_CSI20131209/Encode#1Run2_4/00048.dcm /home/stowler-local/temp-BH-QC/dicoms/AM82-E1_CSI20131209/Encode#1Run2_4/00049.dcm /home/stowler-local/temp-BH-QC/dicoms/AM82-E1_CSI20131209/Encode#1Run2_4/00050.dcm /home/stowler-local/temp-BH-QC/dicoms/AM82-E1_CSI20131209/Encode#1Run2_4/00051.dcm /home/stowler-local/temp-BH-QC/dicoms/AM82-E1_CSI20131209/Encode#1Run2_4/00052.dcm /home/stowler-local/temp-BH-QC/dicoms/AM82-E1_CSI20131209/Encode#1Run2_4/00053.dcm /home/stowler-local/temp-BH-QC/dicoms/AM82-E1_CSI20131209/Encode#1Run2_4/00054.dcm /home/stowler-local/temp-BH-QC/dicoms/AM82-E1_CSI20131209/Encode#1Run2_4/00055.dcm /home/stowler-local/temp-BH-QC/dicoms/AM82-E1_CSI20131209/Encode#1Run2_4/00056.dcm /home/stowler-local/temp-BH-QC/dicoms/AM82-E1_CSI20131209/Encode#1Run2_4/00057.dcm /home/stowler-local/temp-BH-QC/dicoms/AM82-E1_CSI20131209/Encode#1Run2_4/00058.dcm /home/stowler-local/temp-BH-QC/dicoms/AM82-E1_CSI20131209/Encode#1Run2_4/00059.dcm /home/stowler-local/temp-BH-QC/dicoms/AM82-E1_CSI20131209/Encode#1Run2_4/00060.dcm /home/stowler-local/temp-BH-QC/dicoms/AM82-E1_CSI20131209/Encode#1Run2_4/00061.dcm /home/stowler-local/temp-BH-QC/dicoms/AM82-E1_CSI20131209/Encode#1Run2_4/00062.dcm /home/stowler-local/temp-BH-QC/dicoms/AM82-E1_CSI20131209/Encode#1Run2_4/00063.dcm /home/stowler-local/temp-BH-QC/dicoms/AM82-E1_CSI20131209/Encode#1Run2_4/00064.dcm /home/stowler-local/temp-BH-QC/dicoms/AM82-E1_CSI20131209/Encode#1Run2_4/00065.dcm /home/stowler-local/temp-BH-QC/dicoms/AM82-E1_CSI20131209/Encode#1Run2_4/00066.dcm /home/stowler-local/temp-BH-QC/dicoms/AM82-E1_CSI20131209/Encode#1Run2_4/00067.dcm /home/stowler-local/temp-BH-QC/dicoms/AM82-E1_CSI20131209/Encode#1Run2_4/00068.dcm /home/stowler-local/temp-BH-QC/dicoms/AM82-E1_CSI20131209/Encode#1Run2_4/00069.dcm /home/stowler-local/temp-BH-QC/dicoms/AM82-E1_CSI20131209/Encode#1Run2_4/00070.dcm /home/stowler-local/temp-BH-QC/dicoms/AM82-E1_CSI20131209/Encode#1Run2_4/00071.dcm /home/stowler-local/temp-BH-QC/dicoms/AM82-E1_CSI20131209/Encode#1Run2_4/00072.dcm /home/stowler-local/temp-BH-QC/dicoms/AM82-E1_CSI20131209/Encode#1Run2_4/00073.dcm /home/stowler-local/temp-BH-QC/dicoms/AM82-E1_CSI20131209/Encode#1Run2_4/00074.dcm /home/stowler-local/temp-BH-QC/dicoms/AM82-E1_CSI20131209/Encode#1Run2_4/00075.dcm /home/stowler-local/temp-BH-QC/dicoms/AM82-E1_CSI20131209/Encode#1Run2_4/00076.dcm /home/stowler-local/temp-BH-QC/dicoms/AM82-E1_CSI20131209/Encode#1Run2_4/00077.dcm /home/stowler-local/temp-BH-QC/dicoms/AM82-E1_CSI20131209/Encode#1Run2_4/00078.dcm /home/stowler-local/temp-BH-QC/dicoms/AM82-E1_CSI20131209/Encode#1Run2_4/00079.dcm /home/stowler-local/temp-BH-QC/dicoms/AM82-E1_CSI20131209/Encode#1Run2_4/00080.dcm /home/stowler-local/temp-BH-QC/dicoms/AM82-E1_CSI20131209/Encode#1Run2_4/00081.dcm /home/stowler-local/temp-BH-QC/dicoms/AM82-E1_CSI20131209/Encode#1Run2_4/00082.dcm /home/stowler-local/temp-BH-QC/dicoms/AM82-E1_CSI20131209/Encode#1Run2_4/00083.dcm /home/stowler-local/temp-BH-QC/dicoms/AM82-E1_CSI20131209/Encode#1Run2_4/00084.dcm /home/stowler-local/temp-BH-QC/dicoms/AM82-E1_CSI20131209/Encode#1Run2_4/00085.dcm /home/stowler-local/temp-BH-QC/dicoms/AM82-E1_CSI20131209/Encode#1Run2_4/00086.dcm /home/stowler-local/temp-BH-QC/dicoms/AM82-E1_CSI20131209/Encode#1Run2_4/00087.dcm /home/stowler-local/temp-BH-QC/dicoms/AM82-E1_CSI20131209/Encode#1Run2_4/00088.dcm /home/stowler-local/temp-BH-QC/dicoms/AM82-E1_CSI20131209/Encode#1Run2_4/00089.dcm /home/stowler-local/temp-BH-QC/dicoms/AM82-E1_CSI20131209/Encode#1Run2_4/00090.dcm /home/stowler-local/temp-BH-QC/dicoms/AM82-E1_CSI20131209/Encode#1Run2_4/00091.dcm /home/stowler-local/temp-BH-QC/dicoms/AM82-E1_CSI20131209/Encode#1Run2_4/00092.dcm /home/stowler-local/temp-BH-QC/dicoms/AM82-E1_CSI20131209/Encode#1Run2_4/00093.dcm /home/stowler-local/temp-BH-QC/dicoms/AM82-E1_CSI20131209/Encode#1Run2_4/00094.dcm /home/stowler-local/temp-BH-QC/dicoms/AM82-E1_CSI20131209/Encode#1Run2_4/00095.dcm /home/stowler-local/temp-BH-QC/dicoms/AM82-E1_CSI20131209/Encode#1Run2_4/00096.dcm /home/stowler-local/temp-BH-QC/dicoms/AM82-E1_CSI20131209/Encode#1Run2_4/00097.dcm /home/stowler-local/temp-BH-QC/dicoms/AM82-E1_CSI20131209/Encode#1Run2_4/00098.dcm [args truncated]</description>
+    </entry>
+    <entry>
+      <date>2014-05-06 10:46:11</date>
+      <description>
+Generated on pano.birc.emory.edu by '/opt/bxh/bin/bxh_brainmask' (BXH utilities (1.10.7)) from 1 input args: /tmp/qcADRCOL-AM82-E1-taskfmri.noMoCo/fmriSeriesEncode#1Run2_4.bxh
+BXH utilities (1.10.7)</description>
+    </entry>
+    <entry>
+      <date>2014-05-06 10:46:11</date>
+      <description>
+Generated on pano.birc.emory.edu by 'bxh2analyze' (BXH utilities (1.10.7)) from 2 input args: (no input file specified) /tmp/qcADRCOL-AM82-E1-taskfmri.noMoCo/qcReport-FBIRN/qa_maskdata_fmriSeriesEncode#1Run2_4.bxh
+BXH utilities (1.10.7)</description>
+    </entry>
+  </history>
+</bxh>

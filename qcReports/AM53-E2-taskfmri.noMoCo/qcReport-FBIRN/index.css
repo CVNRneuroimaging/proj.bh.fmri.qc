@@ -1,0 +1,126 @@
+ table.bordered tr td {border: 1px solid gray;}
+ table.striped {
+  border-top: 2px solid #C0D0E0;
+  border-left: 2px solid #C0D0E0;
+  border-bottom: 4px solid #F8F8F8;
+  border-right: 4px solid #F8F8F8;
+ }
+ table.striped .header {
+  font-style: italic;
+ }
+ table.striped td {
+  border-bottom: 1px solid #EEE;
+ }
+ .title {
+  font-size: 1.5em;
+  font-weight: bold;
+  display: block;
+ }
+ .titlebanner {
+  font-size: 1.5em;
+  font-weight: bold;
+  display: block;
+  margin-left: 10px;
+  margin-right: 10px;
+  background-color: #F0F4FF;
+  border-top: 3px solid #C0D0E0;
+  border-left: 3px solid #C0D0E0;
+  border-bottom: 3px solid #F8F8F8;
+  border-right: 3px solid #F8F8F8;
+ }
+ body {
+  font-family: sans-serif;
+ }
+ body>h1 {font-size: larger;}
+ .colorbar {
+   background-color: #dddddd;
+ }
+ .cbarmin {font-size: smaller; text-align: left;}
+ .cbarmax {font-size: smaller; text-align: right;}
+ .imgmin {font-size: smaller;}
+ .imgmax {font-size: smaller;}
+ .blue {
+  color: #00F;
+ }
+ .gray {
+  color: #AAA;
+ }
+ .darkgray {
+  color: #666;
+ }
+ .underlined {
+  text-decoration: underline;
+ }
+ div.body {
+  max-width: 950px;
+  padding: 10px;
+ }
+ div.navbar {
+  top: 1em;
+  right: 1em;
+  position: fixed;
+  padding: 10px;
+  border: 3px solid #E0E8F0;
+  background: #F0F4FF;
+  height: 20em;
+ }
+ div.navbarclosed {
+  top: 1em;
+  right: 1em;
+  position: fixed;
+  font-size: larger;
+  font-weight: bold;
+  border: 3px solid #E0E8F0;
+  background: #F0F4FF;
+ }
+ .navbarshowhidelink {
+  text-decoration: none;
+  text-align: center;
+  font-size: smaller;
+  color: #0000FF;
+ }
+ .navbartitle {
+  text-align: center;
+  font-size: larger;
+  font-weight: bold;
+  margin: 0px;
+ }
+ .navbar .select {
+  background: #F8F8F8;
+  border: 3px solid #E0E8F0;
+  padding: 5px;
+  overflow: auto;
+  height: 18em;
+  width: auto;
+  border-collapse: collapse;
+ }
+ .navbar li a:visited {
+  text-decoration: none;
+  color: blue;
+ }
+ .navbar div div div.blue:hover {
+  text-decoration: underline;
+  color: blue;
+ }
+ .popupLink {
+  outline: none;
+ }
+ .popup {
+  position: absolute;
+  visibility: hidden;
+  background-color: #FDD;
+  layer-background-color: #FDD;
+  width: 200;
+  border-left: 1px solid black;
+  border-top: 1px solid black;
+  border-bottom: 3px solid black;
+  border-right: 3px solid black;
+  padding: 3px;
+  z-index: 10;
+ }
+
+ /* to avoid IE position:fixed bug */
+ div#navbar { position: absolute; right: 1em; top: 1em; }
+ div#navbarclosed { position: absolute; right: 1em; top: 1em; }
+ body > div#navbar { position: fixed; }
+ body > div#navbarclosed { position: fixed; }

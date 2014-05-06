@@ -1,0 +1,112 @@
+<?xml version="1.0"?>
+<!-- This is a BXH (BIAC XML Header) file. -->
+<bxh xmlns:bxh="http://www.biac.duke.edu/bxh" xmlns="http://www.biac.duke.edu/bxh" version="1.0">
+  <datarec type="image">
+    <dimension type="t">
+      <size>166</size>
+      <origin>0</origin>
+      <gap>0</gap>
+      <spacing>2000</spacing>
+    </dimension>
+    <dimension type="z">
+      <size>33</size>
+      <origin>-58.6747117778354</origin>
+      <gap>-1.35603972495346e-10</gap>
+      <spacing>3.4999999998644</spacing>
+    </dimension>
+    <byteorder>lsbfirst</byteorder>
+    <elementtype>float32</elementtype>
+    <filename>qa_slicevardata_fmriSeriesMoCoSeries_3.bxh.nii</filename>
+    <fileoffset>352</fileoffset>
+    <filerecordsize>21912</filerecordsize>
+  </datarec>
+  <acquisitiondata>
+    <examnumber>1</examnumber>
+    <studyid>AM82_E2</studyid>
+    <seriesnumber>3</seriesnumber>
+    <runnumber>1</runnumber>
+    <institution>Emory University</institution>
+    <institutionaddress>Clifton Rd NE 1481,Atlanta,GA,US,30322</institutionaddress>
+    <institutionaldepartmentname>Department</institutionaldepartmentname>
+    <protocolname>Encode #2 Run 1 (Encode +ACM-2 Run 1) </protocolname>
+    <psdname>%SiemensSeq%\ep2d_bold</psdname>
+    <scandate>2013-12-19</scandate>
+    <scantime>11:13:19</scantime>
+    <scannermanufacturer>SIEMENS</scannermanufacturer>
+    <scanner>MRC35352</scanner>
+    <examdescription>CSI^MRI.3T.FS.2012.002</examdescription>
+    <description>MoCoSeries</description>
+    <scannermodelname>TrioTim</scannermodelname>
+    <scanningsequence>EP</scanningsequence>
+    <sequencevariant>SK</sequencevariant>
+    <scanoptions>FS</scanoptions>
+    <mracquisitiontype>2D</mracquisitiontype>
+    <sequencename>*epfid2d1_64</sequencename>
+    <angioflag>N</angioflag>
+    <numaverages>1</numaverages>
+    <imagingfrequency>123.208362</imagingfrequency>
+    <imagednucleus>1H</imagednucleus>
+    <spacingbetweenslices>3.5000000450909</spacingbetweenslices>
+    <numphaseencodingsteps>63</numphaseencodingsteps>
+    <echotrainlength>1</echotrainlength>
+    <percentsampling>100</percentsampling>
+    <percentphasefieldofview>100</percentphasefieldofview>
+    <scannerserialnumber>35352</scannerserialnumber>
+    <softwareversions>syngo MR B17</softwareversions>
+    <transmitcoilname>Body</transmitcoilname>
+    <inplanephaseencodingdirection>COL</inplanephaseencodingdirection>
+    <flipangle>90</flipangle>
+    <variableflipangleflag>N</variableflipangleflag>
+    <sar>0.15952709720922</sar>
+    <dBdt>0</dBdt>
+    <acquisitionnumber>1</acquisitionnumber>
+    <instancenumber>1</instancenumber>
+    <imagecomments>Reference volume for motion correction.</imagecomments>
+    <samplesperpixel>1</samplesperpixel>
+    <photometricinterpretation>MONOCHROME2</photometricinterpretation>
+    <rows>384</rows>
+    <columns>384</columns>
+    <bitsallocated>16</bitsallocated>
+    <bitsstored>12</bitsstored>
+    <highbit>11</highbit>
+    <magneticfield>3</magneticfield>
+    <fieldofview>220 220</fieldofview>
+    <tr>2000</tr>
+    <te>30.000000</te>
+    <prescribedslicespacing>3.5</prescribedslicespacing>
+    <acquisitionmatrix>64 64</acquisitionmatrix>
+    <pixelbandwidth>1776</pixelbandwidth>
+    <bandwidth>113.664</bandwidth>
+    <otherinfo>sRawFilter.lSlope_256 = 25
+sRawFilter.ucOn = 0x1
+sRawFilter.ucMode = 0x1
+</otherinfo>
+    <frequencydirection>1</frequencydirection>
+    <sliceorder>1,3,5,7,9,11,13,15,17,19,21,23,25,27,29,31,33,2,4,6,8,10,12,14,16,18,20,22,24,26,28,30,32</sliceorder>
+  </acquisitiondata>
+  <subject>
+    <name>AM82_E2</name>
+    <age>43</age>
+    <sex>M</sex>
+    <weight>68.038864155</weight>
+  </subject>
+  <history>
+    <entry>
+      <date>2014-05-02 19:03:40</date>
+      <description>
+Generated on pano.birc.emory.edu by 'dicom2bxh' (BXH utilities (1.10.7)) from 167 input args: /home/stowler-local/temp-BH-QC/dicoms/AM82_E2_CSI20131219/MoCoSeries_3/00001.dcm /home/stowler-local/temp-BH-QC/dicoms/AM82_E2_CSI20131219/MoCoSeries_3/00001.dcm.nfo /home/stowler-local/temp-BH-QC/dicoms/AM82_E2_CSI20131219/MoCoSeries_3/00002.dcm /home/stowler-local/temp-BH-QC/dicoms/AM82_E2_CSI20131219/MoCoSeries_3/00003.dcm /home/stowler-local/temp-BH-QC/dicoms/AM82_E2_CSI20131219/MoCoSeries_3/00004.dcm /home/stowler-local/temp-BH-QC/dicoms/AM82_E2_CSI20131219/MoCoSeries_3/00005.dcm /home/stowler-local/temp-BH-QC/dicoms/AM82_E2_CSI20131219/MoCoSeries_3/00006.dcm /home/stowler-local/temp-BH-QC/dicoms/AM82_E2_CSI20131219/MoCoSeries_3/00007.dcm /home/stowler-local/temp-BH-QC/dicoms/AM82_E2_CSI20131219/MoCoSeries_3/00008.dcm /home/stowler-local/temp-BH-QC/dicoms/AM82_E2_CSI20131219/MoCoSeries_3/00009.dcm /home/stowler-local/temp-BH-QC/dicoms/AM82_E2_CSI20131219/MoCoSeries_3/00010.dcm /home/stowler-local/temp-BH-QC/dicoms/AM82_E2_CSI20131219/MoCoSeries_3/00011.dcm /home/stowler-local/temp-BH-QC/dicoms/AM82_E2_CSI20131219/MoCoSeries_3/00012.dcm /home/stowler-local/temp-BH-QC/dicoms/AM82_E2_CSI20131219/MoCoSeries_3/00013.dcm /home/stowler-local/temp-BH-QC/dicoms/AM82_E2_CSI20131219/MoCoSeries_3/00014.dcm /home/stowler-local/temp-BH-QC/dicoms/AM82_E2_CSI20131219/MoCoSeries_3/00015.dcm /home/stowler-local/temp-BH-QC/dicoms/AM82_E2_CSI20131219/MoCoSeries_3/00016.dcm /home/stowler-local/temp-BH-QC/dicoms/AM82_E2_CSI20131219/MoCoSeries_3/00017.dcm /home/stowler-local/temp-BH-QC/dicoms/AM82_E2_CSI20131219/MoCoSeries_3/00018.dcm /home/stowler-local/temp-BH-QC/dicoms/AM82_E2_CSI20131219/MoCoSeries_3/00019.dcm /home/stowler-local/temp-BH-QC/dicoms/AM82_E2_CSI20131219/MoCoSeries_3/00020.dcm /home/stowler-local/temp-BH-QC/dicoms/AM82_E2_CSI20131219/MoCoSeries_3/00021.dcm /home/stowler-local/temp-BH-QC/dicoms/AM82_E2_CSI20131219/MoCoSeries_3/00022.dcm /home/stowler-local/temp-BH-QC/dicoms/AM82_E2_CSI20131219/MoCoSeries_3/00023.dcm /home/stowler-local/temp-BH-QC/dicoms/AM82_E2_CSI20131219/MoCoSeries_3/00024.dcm /home/stowler-local/temp-BH-QC/dicoms/AM82_E2_CSI20131219/MoCoSeries_3/00025.dcm /home/stowler-local/temp-BH-QC/dicoms/AM82_E2_CSI20131219/MoCoSeries_3/00026.dcm /home/stowler-local/temp-BH-QC/dicoms/AM82_E2_CSI20131219/MoCoSeries_3/00027.dcm /home/stowler-local/temp-BH-QC/dicoms/AM82_E2_CSI20131219/MoCoSeries_3/00028.dcm /home/stowler-local/temp-BH-QC/dicoms/AM82_E2_CSI20131219/MoCoSeries_3/00029.dcm /home/stowler-local/temp-BH-QC/dicoms/AM82_E2_CSI20131219/MoCoSeries_3/00030.dcm /home/stowler-local/temp-BH-QC/dicoms/AM82_E2_CSI20131219/MoCoSeries_3/00031.dcm /home/stowler-local/temp-BH-QC/dicoms/AM82_E2_CSI20131219/MoCoSeries_3/00032.dcm /home/stowler-local/temp-BH-QC/dicoms/AM82_E2_CSI20131219/MoCoSeries_3/00033.dcm /home/stowler-local/temp-BH-QC/dicoms/AM82_E2_CSI20131219/MoCoSeries_3/00034.dcm /home/stowler-local/temp-BH-QC/dicoms/AM82_E2_CSI20131219/MoCoSeries_3/00035.dcm /home/stowler-local/temp-BH-QC/dicoms/AM82_E2_CSI20131219/MoCoSeries_3/00036.dcm /home/stowler-local/temp-BH-QC/dicoms/AM82_E2_CSI20131219/MoCoSeries_3/00037.dcm /home/stowler-local/temp-BH-QC/dicoms/AM82_E2_CSI20131219/MoCoSeries_3/00038.dcm /home/stowler-local/temp-BH-QC/dicoms/AM82_E2_CSI20131219/MoCoSeries_3/00039.dcm /home/stowler-local/temp-BH-QC/dicoms/AM82_E2_CSI20131219/MoCoSeries_3/00040.dcm /home/stowler-local/temp-BH-QC/dicoms/AM82_E2_CSI20131219/MoCoSeries_3/00041.dcm /home/stowler-local/temp-BH-QC/dicoms/AM82_E2_CSI20131219/MoCoSeries_3/00042.dcm /home/stowler-local/temp-BH-QC/dicoms/AM82_E2_CSI20131219/MoCoSeries_3/00043.dcm /home/stowler-local/temp-BH-QC/dicoms/AM82_E2_CSI20131219/MoCoSeries_3/00044.dcm /home/stowler-local/temp-BH-QC/dicoms/AM82_E2_CSI20131219/MoCoSeries_3/00045.dcm /home/stowler-local/temp-BH-QC/dicoms/AM82_E2_CSI20131219/MoCoSeries_3/00046.dcm /home/stowler-local/temp-BH-QC/dicoms/AM82_E2_CSI20131219/MoCoSeries_3/00047.dcm /home/stowler-local/temp-BH-QC/dicoms/AM82_E2_CSI20131219/MoCoSeries_3/00048.dcm /home/stowler-local/temp-BH-QC/dicoms/AM82_E2_CSI20131219/MoCoSeries_3/00049.dcm /home/stowler-local/temp-BH-QC/dicoms/AM82_E2_CSI20131219/MoCoSeries_3/00050.dcm /home/stowler-local/temp-BH-QC/dicoms/AM82_E2_CSI20131219/MoCoSeries_3/00051.dcm /home/stowler-local/temp-BH-QC/dicoms/AM82_E2_CSI20131219/MoCoSeries_3/00052.dcm /home/stowler-local/temp-BH-QC/dicoms/AM82_E2_CSI20131219/MoCoSeries_3/00053.dcm /home/stowler-local/temp-BH-QC/dicoms/AM82_E2_CSI20131219/MoCoSeries_3/00054.dcm /home/stowler-local/temp-BH-QC/dicoms/AM82_E2_CSI20131219/MoCoSeries_3/00055.dcm /home/stowler-local/temp-BH-QC/dicoms/AM82_E2_CSI20131219/MoCoSeries_3/00056.dcm /home/stowler-local/temp-BH-QC/dicoms/AM82_E2_CSI20131219/MoCoSeries_3/00057.dcm /home/stowler-local/temp-BH-QC/dicoms/AM82_E2_CSI20131219/MoCoSeries_3/00058.dcm /home/stowler-local/temp-BH-QC/dicoms/AM82_E2_CSI20131219/MoCoSeries_3/00059.dcm /home/stowler-local/temp-BH-QC/dicoms/AM82_E2_CSI20131219/MoCoSeries_3/00060.dcm /home/stowler-local/temp-BH-QC/dicoms/AM82_E2_CSI20131219/MoCoSeries_3/00061.dcm /home/stowler-local/temp-BH-QC/dicoms/AM82_E2_CSI20131219/MoCoSeries_3/00062.dcm /home/stowler-local/temp-BH-QC/dicoms/AM82_E2_CSI20131219/MoCoSeries_3/00063.dcm /home/stowler-local/temp-BH-QC/dicoms/AM82_E2_CSI20131219/MoCoSeries_3/00064.dcm /home/stowler-local/temp-BH-QC/dicoms/AM82_E2_CSI20131219/MoCoSeries_3/00065.dcm /home/stowler-local/temp-BH-QC/dicoms/AM82_E2_CSI20131219/MoCoSeries_3/00066.dcm /home/stowler-local/temp-BH-QC/dicoms/AM82_E2_CSI20131219/MoCoSeries_3/00067.dcm /home/stowler-local/temp-BH-QC/dicoms/AM82_E2_CSI20131219/MoCoSeries_3/00068.dcm /home/stowler-local/temp-BH-QC/dicoms/AM82_E2_CSI20131219/MoCoSeries_3/00069.dcm /home/stowler-local/temp-BH-QC/dicoms/AM82_E2_CSI20131219/MoCoSeries_3/00070.dcm /home/stowler-local/temp-BH-QC/dicoms/AM82_E2_CSI20131219/MoCoSeries_3/00071.dcm /home/stowler-local/temp-BH-QC/dicoms/AM82_E2_CSI20131219/MoCoSeries_3/00072.dcm /home/stowler-local/temp-BH-QC/dicoms/AM82_E2_CSI20131219/MoCoSeries_3/00073.dcm /home/stowler-local/temp-BH-QC/dicoms/AM82_E2_CSI20131219/MoCoSeries_3/00074.dcm /home/stowler-local/temp-BH-QC/dicoms/AM82_E2_CSI20131219/MoCoSeries_3/00075.dcm /home/stowler-local/temp-BH-QC/dicoms/AM82_E2_CSI20131219/MoCoSeries_3/00076.dcm /home/stowler-local/temp-BH-QC/dicoms/AM82_E2_CSI20131219/MoCoSeries_3/00077.dcm /home/stowler-local/temp-BH-QC/dicoms/AM82_E2_CSI20131219/MoCoSeries_3/00078.dcm /home/stowler-local/temp-BH-QC/dicoms/AM82_E2_CSI20131219/MoCoSeries_3/00079.dcm /home/stowler-local/temp-BH-QC/dicoms/AM82_E2_CSI20131219/MoCoSeries_3/00080.dcm /home/stowler-local/temp-BH-QC/dicoms/AM82_E2_CSI20131219/MoCoSeries_3/00081.dcm /home/stowler-local/temp-BH-QC/dicoms/AM82_E2_CSI20131219/MoCoSeries_3/00082.dcm /home/stowler-local/temp-BH-QC/dicoms/AM82_E2_CSI20131219/MoCoSeries_3/00083.dcm /home/stowler-local/temp-BH-QC/dicoms/AM82_E2_CSI20131219/MoCoSeries_3/00084.dcm /home/stowler-local/temp-BH-QC/dicoms/AM82_E2_CSI20131219/MoCoSeries_3/00085.dcm /home/stowler-local/temp-BH-QC/dicoms/AM82_E2_CSI20131219/MoCoSeries_3/00086.dcm /home/stowler-local/temp-BH-QC/dicoms/AM82_E2_CSI20131219/MoCoSeries_3/00087.dcm /home/stowler-local/temp-BH-QC/dicoms/AM82_E2_CSI20131219/MoCoSeries_3/00088.dcm /home/stowler-local/temp-BH-QC/dicoms/AM82_E2_CSI20131219/MoCoSeries_3/00089.dcm /home/stowler-local/temp-BH-QC/dicoms/AM82_E2_CSI20131219/MoCoSeries_3/00090.dcm /home/stowler-local/temp-BH-QC/dicoms/AM82_E2_CSI20131219/MoCoSeries_3/00091.dcm /home/stowler-local/temp-BH-QC/dicoms/AM82_E2_CSI20131219/MoCoSeries_3/00092.dcm /home/stowler-local/temp-BH-QC/dicoms/AM82_E2_CSI20131219/MoCoSeries_3/00093.dcm /home/stowler-local/temp-BH-QC/dicoms/AM82_E2_CSI20131219/MoCoSeries_3/00094.dcm /home/stowler-local/temp-BH-QC/dicoms/AM82_E2_CSI20131219/MoCoSeries_3/00095.dcm /home/stowler-local/temp-BH-QC/dicoms/AM82_E2_CSI20131219/MoCoSeries_3/00096.dcm /home/stowler-local/temp-BH-QC/dicoms/AM82_E2_CSI20131219/MoCoSeries_3/00097.dcm /home/stowler-local/temp-BH-QC/dicoms/AM82_E2_CSI20131219/MoCoSeries_3/00098.dcm /home/stowler-local/temp-BH-QC/dicoms/AM82_E2_CSI20131219/MoCoSeries_3/00099.dcm /home/stowler-local/temp-BH-QC/dicoms/AM82_E2_CSI20131219/MoCoSeries_3/00100.dcm [args truncated]</description>
+    </entry>
+    <entry>
+      <date>2014-05-02 19:05:12</date>
+      <description>
+Generated on pano.birc.emory.edu by '/opt/bxh/bin/fmriqa_spikiness' (BXH utilities (1.10.7)) from 1 input args: /tmp/qcADRCOL-AM82-E2-taskfmri/fmriSeriesMoCoSeries_3.bxh
+BXH utilities (1.10.7)</description>
+    </entry>
+    <entry>
+      <date>2014-05-02 19:05:12</date>
+      <description>
+Generated on pano.birc.emory.edu by 'bxh2analyze' (BXH utilities (1.10.7)) from 2 input args: (no input file specified) /tmp/qcADRCOL-AM82-E2-taskfmri/qcReport-FBIRN/qa_slicevardata_fmriSeriesMoCoSeries_3.bxh
+BXH utilities (1.10.7)</description>
+    </entry>
+  </history>
+</bxh>
