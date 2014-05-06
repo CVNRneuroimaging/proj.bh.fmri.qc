@@ -14,6 +14,7 @@ RESOURCES & REFERENCE:
 - download a zip file containing all qcReports and code: https://github.com/stowler/proj.bh.fmri.qc/archive/master.zip
   - unzip, and then open the `index.html` file in each session's QC folder to view the QC results as a web page
 - this repo's public URL: https://github.com/stowler/proj.bh.fmri.qc
+- console's motion correction seems to introduce strange smoothness characteristics (screenshot: http://note.io/1iotflT)
 - work was performed off-server as stowler-local@pano.birc.emory.edu
 
 
@@ -54,6 +55,7 @@ stowler-local@pano:~/temp-BH-QC$ du -sh qcReports/*noMoCo
   - confirmed no mis-match between script name and session ID: `grep "session\=E" *.sh`
   - confirmed no mis-match between script name and sequence group label : `grep "sequences\=task" *.sh`
   - confirmed no mis-match between script name and dicom child dirs: `grep "^fmriSeriesList\=" *.sh`
+- email to Ben: Try processing the error sessions from the non-MoCo files. Console's motion correction seems to introduce strange smoothness characteristics (screenshot: http://note.io/1iotflT)
 
 
 F, 20140502
