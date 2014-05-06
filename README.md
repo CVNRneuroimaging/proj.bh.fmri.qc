@@ -50,6 +50,7 @@ stowler-local@pano:~/temp-BH-QC$ du -sh qcReports/*noMoCo
   - confirmed no mis-match between script name and participant ID: `grep "participant\=A" *.sh`
   - confirmed no mis-match between script name and session ID: `grep "session\=E" *.sh`
   - confirmed no mis-match between script name and sequence group label : `grep "sequences\=task" *.sh`
+  - confirmed no mis-match between script name and dicom child dirs: `grep "^fmriSeriesList\=" *.sh`
 
 
 F, 20140502
