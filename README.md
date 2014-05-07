@@ -24,12 +24,12 @@ Ben's original request (F, 20140502): Would you mind running some QC on AM80 Enc
 2. PROJECT NOTES
 =======================
 
-2.1. contact info and reference numbers
+2.1. contacts and reference numbers
 ----------------------------------------------
 n/a
 
 
-2.2. budgets, invoicing, target dates
+2.2. budgets and deadlines
 ---------------------------------------
 n/a 
 
@@ -46,7 +46,11 @@ n/a
 2.4. software notes
 --------------------------------------------------------------------------
 PLATFORMS AND VERSIONS:
-  - n/a
+
+- `Linux pano.birc.emory.edu 3.2.0-53-generic #81-Ubuntu SMP Thu Aug 22 21:01:03 UTC 2013 x86_64 x86_64 x86_64 GNU/Linux`
+- FBIRN QA tools: `bxh_xcede_tools-1.10.7-lsb30.x86_64`
+- fslreorient2std from FSL version 5.0.4
+
 
 COMMAND/GUI NOTES AND IDIOSYNCRASIES:
   - n/a
@@ -68,53 +72,7 @@ AM84,E1
 ```
 
 
-2.6. FMRI stimuli and recorded behavior
----------------------------------------
-n/a - quality control only
-
-
-2.7. a priori regions of interest
----------------------------------
-n/a - quality control only
-
-
-2.8. hypotheses & contrasts
----------------------------
-n/a - quality control only
-
-
-2.9. mixed effects structures
------------------------------
-n/a - quality control only
-
-
-2.10. power analyses
---------------------
-n/a - quality control only
-
-
-2.11. relevant literature
----------------------------
-n/a
-
-
-2.12. notes about deliverables
--------------------------------
-RAW DATA
-- I'll provide FMRI quality control data and interpretation for Ben.
-
-FIGURES AND TABLES
-- n/a
-
-ABSTRACTS AND POSTERS
-- n/a
-
-MANUSCRIPTS
-- n/a
-
-
-
-3 DATED PROGRESS NOTES
+3. PROJECT LOG
 =================================================
 (ordered recent to older)
 
